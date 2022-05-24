@@ -5,12 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_orange_light">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/fondo"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
-            android:paddingRight="40dp"
+            android:paddingRight="70dp"
             android:gravity="center">
             <ImageView
                 android:layout_width="wrap_content"
@@ -38,8 +36,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/white"
-                android:backgroundTint="@color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:backgroundTint="@android:color/darker_gray"
                 android:hint="Usuario"
                 android:textSize="25dp"/>
 
@@ -60,8 +58,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/white"
-                android:backgroundTint="@color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:backgroundTint="@android:color/darker_gray"
                 android:hint="Contraseña"
                 android:textSize="25dp"/>
 
@@ -75,9 +73,23 @@
             android:gravity="center">
 
             <Button
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:text="login"/>
+                android:layout_width="288dp"
+                android:layout_height="65dp"
+                android:text="login"
+                android:textSize="20sp"
+                android:background="@color/material_dynamic_neutral60"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O puedes ingrasar con"
+                android:textSize="15sp"/>
         </LinearLayout>
 
     </LinearLayout>

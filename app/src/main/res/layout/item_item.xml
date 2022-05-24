@@ -8,7 +8,8 @@
         android:id="@+id/ivItem"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@color/black"
+        android:layout_margin="20sp"
+        android:background="@drawable/kotlinlogo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 

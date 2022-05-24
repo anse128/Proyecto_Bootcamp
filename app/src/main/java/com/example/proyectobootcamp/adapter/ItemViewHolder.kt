@@ -17,5 +17,4 @@ class ItemViewHolder(view: View):RecyclerView.ViewHolder(view){
         realName.text = itemModel.Item
         photo.text = itemModel.Item
     }
-
 }

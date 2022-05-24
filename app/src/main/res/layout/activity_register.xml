@@ -78,6 +78,18 @@
                 android:text="login"
                 android:textSize="20sp"
                 android:background="@color/material_dynamic_neutral60"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O puedes ingrasar con"
+                android:textSize="15sp"/>
         </LinearLayout>
 
     </LinearLayout>
