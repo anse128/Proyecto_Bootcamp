@@ -9,10 +9,10 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
-        Handler().postDelayed({
+     /*   Handler().postDelayed({
             val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
             finish()
-        }, 5000)
+        }, 5000)*/
     }
 }

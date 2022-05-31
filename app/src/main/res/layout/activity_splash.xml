@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".SplashActivity"
-    android:background="@android:color/holo_orange_dark">
+    android:background="@color/yellow"
+    android:padding="40dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_gravity="center"
         android:paddingRight="2dp"
-        android:src="@drawable/kotlinlogo"
+        android:src="@drawable/imdb_logo"
         tools:ignore="MissingConstraints" />
 
 </LinearLayout>

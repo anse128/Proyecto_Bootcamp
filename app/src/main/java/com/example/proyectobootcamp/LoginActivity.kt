@@ -10,7 +10,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         Handler().postDelayed({
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
             finish()
         }, 5000)
