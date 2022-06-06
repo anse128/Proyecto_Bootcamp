@@ -91,6 +91,7 @@
 
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="288dp"
             android:layout_height="70dp"
             android:text="Login"
@@ -148,7 +149,7 @@
                     android:layout_width="60sp"
                     android:layout_height="60sp"
                     android:background="@drawable/background_imageview"
-                    android:src="@drawable/facebook_logo"
+                    android:src="@drawable/apple_logo"
                     android:padding="15dp"/>
             </LinearLayout>
 
@@ -164,7 +165,7 @@
                     android:layout_width="60sp"
                     android:layout_height="60sp"
                     android:background="@drawable/background_imageview"
-                    android:src="@drawable/google_logo"
+                    android:src="@drawable/apple_logo"
                     android:padding="15dp"/>
 
             </LinearLayout>
