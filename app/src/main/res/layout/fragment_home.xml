@@ -12,4 +12,12 @@
         android:text="Home**********"
         android:textSize="50sp"/>
 
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button"
+        android:background="@drawable/background_search" />
+
 </FrameLayout>

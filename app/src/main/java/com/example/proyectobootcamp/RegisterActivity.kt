@@ -15,4 +15,5 @@ class RegisterActivity : AppCompatActivity() {
             finish()
         }, 5000)*/
     }
+
 }
