@@ -1,15 +1,229 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.ProfileFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="profile**********"
-        android:textSize="50sp" />
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="25dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:elevation="5dp">
 
-</FrameLayout>
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@drawable/background_imageview"
+            android:src="@drawable/kotlinlogo"
+            android:elevation="10dp"
+            android:padding="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="Usuario"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:elevation="100dp"
+                app:cardCornerRadius="5dp"
+                android:outlineSpotShadowColor="@color/black"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="30dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="30dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginRight="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="30dp"
+                app:cardCornerRadius="5dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_bulletpoint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Lista de seguimiento"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crea una lista de seguimiento para no perderte ninguna peliculao serie de tv."
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_bulletpoint"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Lista de seguimiento"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crea una lista de seguimiento para no perderte ninguna peliculao serie de tv."
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/yellow"
+            app:cornerRadius="10dp"
+            android:text="Empieza tu lista de seguimiento"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_bulletpoint"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Vistas recientes"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No has visitado nínguna página recientemente."
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_bulletpoint"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Personas Favoritas"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

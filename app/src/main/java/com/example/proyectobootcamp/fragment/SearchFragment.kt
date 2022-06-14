@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.proyectobootcamp.Item
@@ -37,22 +38,11 @@ class SearchFragment : Fragment() {
 
         val view: View = inflater.inflate(R.layout.fragment_search, container, false)
 
-        val view2: View  = inflater.inflate(R.layout.fragment_play, container, false)
         fun onItemSelected(item: Item) {
-            Toast.makeText(context, item.name, Toast.LENGTH_SHORT).show()
+            //Toast.makeText(context, item.name, Toast.LENGTH_SHORT).show()
             // Create new fragment
 
-            val fragmentManager = requireParentFragment().parentFragmentManager
-            val fragmentTransaction = fragmentManager.beginTransaction()
-
-
-            // Create and commit a new transaction
-            fragmentManager.commit {
-                setReorderingAllowed(true)
-                Toast.makeText(activity, "click", Toast.LENGTH_SHORT).show()
-                // Replace whatever is in the fragment_container view with this fragment
-                replace<PlayFragment>(R.id.searchFragment)
-            }
+            Navigation.findNavController(view).navigate(R.id.detailFragment)
         }
 
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerItem)

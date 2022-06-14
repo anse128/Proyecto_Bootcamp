@@ -19,26 +19,32 @@
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/ProyectoBootcamp/app/src/main/res/layout/layout.xml" value="0.1082427536231884" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/ProyectoBootcamp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/ProyectoBootcamp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_bulletpoint.xml" value="0.1745" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_decoration.xml.xml" value="0.1745" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_imageview.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_input.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_inputasdfasd.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_menu.xml" value="0.15" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/background_search.xml" value="0.1" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_account.xml" value="0.1495" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_baseline_person.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_play.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout-v31/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/activity_search.xml" value="0.2" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_detail.xml" value="0.2" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_play.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/fragment_search.xml" value="0.22" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/item_item.xml" value="0.24978089395267308" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/layout/item_peliculas_mejores.xml" value="0.25" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/Proyecto_Bootcamp/app/src/main/res/menu/menu_bottom.xml" value="0.22" />
       </map>
     </option>
