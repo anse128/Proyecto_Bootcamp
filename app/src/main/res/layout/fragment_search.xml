@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.SearchFragment"
     android:orientation="vertical">
 
@@ -15,11 +14,11 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="15dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp">
+        android:layout_marginRight="45dp">
         <SearchView
-            android:id="@+id/search"
+            android:id="@+id/searchViewMovie"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="Buscar IMDb"
             android:background="@drawable/background_search"/>
     </Toolbar>
@@ -28,7 +27,5 @@
         android:id="@+id/recyclerItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#74E7E7E7"
-        android:paddingRight="25dp"
-        android:paddingBottom="10dp"/>
+        android:background="#74E7E7E7"/>
 </LinearLayout>

@@ -5,11 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
-
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="45dp">
+        <SearchView
+            android:id="@+id/searchViewMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Buscar IMDb"
+            android:background="@drawable/background_search"/>
+    </Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerItem"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="601dp"
+        android:layout_gravity="bottom" />
 
 </FrameLayout>
